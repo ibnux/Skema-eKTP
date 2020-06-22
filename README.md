@@ -5,7 +5,7 @@
 ![Nomor eKTP](nomorktp.png)
 
 | # | keterangan |
-|---|---|---|
+|---|---|
 | A | Propinsi) |
 | B | Kota/Kabupaten |
 | C | Kecamatan |
@@ -20,7 +20,7 @@
 ## Contoh
 
 | # | keterangan |
-|---|---|---|
+|---|---|
 | 31 | DKI JAKARTA |
 | 74 | KOTA JAKARTA BARAT |
 | 09 | JAGAKARSA |
@@ -36,7 +36,7 @@ Bila mana hasil perhitungan berbeda, maka bisa jadi eKTP palsu atau pihak Disduk
 ![eKTP Palsu](ektp_palsu.jpg)
 
 | # | keterangan |
-|---|---|---|
+|---|---|
 | 36 | BANTEN |
 | 01 | KAB. PANDEGLANG |
 | 18 | CIMANUK |
@@ -57,6 +57,6 @@ Dengan skema diatas, maka kita dapat memvalidasi apakah eKTP itu benar, sebagai 
 
 ## Singkatan
 | Singkatan | keterangan |
-|---|---|---|
+|---|---|
 | JK | Jenis Kelamin |
 | KAB | KABUPATEN |
