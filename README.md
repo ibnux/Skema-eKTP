@@ -9,11 +9,11 @@
 | A | Propinsi |
 | B | Kota/Kabupaten |
 | C | Kecamatan |
-| D | Tanggal lahir, jika wanita ditambah 40 |
+| D | Tanggal lahir, jika wanita, tanggal lahir akan ditambah 40 |
 | E | Bulan lahir |
 | F | Tahun lahir |
 | G | Urutan terdaftar pada Disdukcapil untuk yang tanggal lahirnya sama|
-| JK | Wanita, tanggal lahir diatas angka 40, jika Pria tanggal lahir tetap |
+| JK | **Wanita**, tanggal lahir diatas angka 40, jika **Pria** tanggal lahir tetap |
 | Jumlah | 16 digit |
 
 
@@ -24,7 +24,7 @@
 | 31 | DKI JAKARTA |
 | 74 | KOTA JAKARTA BARAT |
 | 09 | JAGAKARSA |
-| 61 | Tanggal lahir, jika wanita dikurangi 40, 61-40 = **21** |
+| 61 | Tanggal lahir, karena diatas 40 berati wanita, dikurangi 40 untuk mendapatkan tanggal aslinya, 61-40 = **21** |
 | 12 | Bulan 12, Desember |
 | 90 | Tahun 1990 |
 | 0001 | Pendaftar pertama di Disdukcapil untuk tanggal lahir tersebut |
@@ -40,7 +40,7 @@ Bila mana hasil perhitungan berbeda, maka bisa jadi eKTP palsu atau pihak Disduk
 | 36 | BANTEN |
 | 01 | KAB. PANDEGLANG |
 | 18 | CIMANUK |
-| 50 | Tanggal lahir, jika wanita dikurangi 40, 50-40 = **10** |
+| 50 | Tanggal lahir, karena diatas 40 berati wanita, dikurangi 40 untuk mendapatkan tanggal aslinya, 50-40 = **10** |
 | 09 | Bulan 9, September |
 | 86 | Tahun 1986 |
 | 0001 | Pendaftar pertama di Disdukcapil untuk tanggal lahir tersebut|
@@ -54,6 +54,8 @@ Ada juga yang Wanita tapi tanggal lahir dibawah angka 40, atau yang Pria, tapi t
 
 Dengan skema diatas, maka kita dapat memvalidasi apakah eKTP itu benar, sebagai tahap awal verifikasi. pastikan Jumlah karakter 16 digit, tanggal lahir sama, dan jenis kelamin sama
 
+Apakah bisa validasi dari 6 digit pertama?
+bisa, tetapi hanya cek apakah wilayahnya ada atau ngga, karena 6 digit pertama merupakan wilayah pertama kali orang tersebut membuat KTP, seperti iBNuX lahir di Bandung - Jawa Barat, Pertama kali bikin KTP di Kab. Serang - Banten, jadinya nomor KTP saya 360423
 
 ## Singkatan
 | Singkatan | keterangan |
