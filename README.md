@@ -6,7 +6,7 @@
 
 | # | keterangan |
 |---|---|
-| A | Propinsi) |
+| A | Propinsi |
 | B | Kota/Kabupaten |
 | C | Kecamatan |
 | D | Tanggal lahir, jika wanita ditambah 40 |
