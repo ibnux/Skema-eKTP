@@ -55,10 +55,26 @@ Ada juga yang Wanita tapi tanggal lahir dibawah angka 40, atau yang Pria, tapi t
 Dengan skema diatas, maka kita dapat memvalidasi apakah eKTP itu benar, sebagai tahap awal verifikasi. pastikan Jumlah karakter 16 digit, tanggal lahir sama, dan jenis kelamin sama
 
 Apakah bisa validasi dari 6 digit pertama?
-bisa, tetapi hanya cek apakah wilayahnya ada atau ngga, karena 6 digit pertama merupakan wilayah pertama kali orang tersebut membuat KTP, seperti iBNuX lahir di Bandung - Jawa Barat, Pertama kali bikin KTP di Kab. Serang - Banten, jadinya nomor KTP saya 360423
+bisa, tetapi hanya cek apakah wilayahnya ada atau ngga, karena 6 digit pertama merupakan wilayah pertama kali orang tersebut membuat KTP, seperti iBNuX lahir di Bandung - Jawa Barat, Pertama kali bikin KTP di Kab. Serang - Banten, jadinya nomor KTP saya **360423**
+
+bisa dicek apakah wilayahnya ada dengan mengambil URL
+
+[https://ibnux.github.io/data-indonesia/kelurahan/360423.json](https://ibnux.github.io/data-indonesia/kelurahan/360423.json)
+
+cek [disini](https://ibnux.github.io/data-indonesia/) cara kerjanya
+
+## Masalah di negara ini
+Data NIK ini tidak 100% valid juga, dikarenakan Disdukcapil sering mengisi data tidak sesuai dengan NIKnya, jadi validasi ini hanya untuk proses awal, jika gagal disini, dilanjutkan dengan validasi ke Disdukcapil dan BI Checking.
+
+Semoga ke depan pembuatan NIK lebih serius.
 
 ## Singkatan
 | Singkatan | keterangan |
 |---|---|
 | JK | Jenis Kelamin |
 | KAB | KABUPATEN |
+
+## Link Development
+
+* [Android & iOS eKTP - OCR for Indonesia ID card](https://github.com/anilbattini/eKTP)
+* [Javascript NIK Parser](https://github.com/bachors/nik_parse.js)
