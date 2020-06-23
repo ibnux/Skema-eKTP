@@ -60,3 +60,7 @@ Dengan skema diatas, maka kita dapat memvalidasi apakah eKTP itu benar, sebagai 
 |---|---|
 | JK | Jenis Kelamin |
 | KAB | KABUPATEN |
+
+## Buku Induk Kode Data dan Wilayah
+
+Sebagai bahan referensi, data yang berkaitan dengan Kode Propinsi, Kota/Kabupaten dan Kecamatan dapat dilihat pada tautan berikut https://www.kemendagri.go.id/media/filemanager/2013/05/28/b/u/buku_induk_kode_data_dan_wilayah_2013.pdf  
