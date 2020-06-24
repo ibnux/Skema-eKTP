@@ -79,7 +79,7 @@ Semoga ke depan pembuatan NIK lebih serius.
 * [Android & iOS eKTP - OCR for Indonesia ID card](https://github.com/anilbattini/eKTP)
 * [Javascript NIK Parser](https://github.com/bachors/nik_parse.js)
 
-### Traktir kopi
+### Support iBNuX
 
 [<img src="https://ibnux.github.io/KaryaKarsa-button/karyaKarsaButton.png" width="128">](https://karyakarsa.com/ibnux)
 [<img src="https://ibnux.github.io/Trakteer-button/trakteer_button.png" width="120">](https://trakteer.id/ibnux)
